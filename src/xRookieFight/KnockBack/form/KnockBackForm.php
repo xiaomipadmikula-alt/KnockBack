@@ -21,7 +21,7 @@ class KnockBackForm implements Form {
            "title" => "Knockback Menu",
            "content" => [
                ["type" => "label", "text" => "World: FFA\n"],
-               ["type" => "input", "text" => "Knockback:", "placeholder" => "EX: 0.4", "default" => (string) $config->get("knockback") ?? (string) 0.6],
+               ["type" => "input", "text" => "Knockback:", "placeholder" => "EX: 0.4", "default" => (string) $config->get("knockback") ?? (string) 10],
                ["type" => "input", "text" => "Attack Cooldown:", "placeholder" => "EX: 8", "default" => (string) $config->get("attack-cooldown") ?? (string) 8],
            ]
        ];
